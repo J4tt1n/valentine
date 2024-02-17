@@ -5,8 +5,8 @@ import Decision from './Decision';
 function App() {
   return (
     <div className="App">
-      {/* <Picture></Picture>
-      <Decision></Decision> */}
+      <Picture></Picture>
+      <Decision></Decision>
     </div>
   );
 }
