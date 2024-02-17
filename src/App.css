@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+.pic-class {
+  padding: 50px 0 20px;
+}
+
+.pic-class2 {
+  width: 400px;
+  height: 325px;
+  box-shadow: 1px 1px 30px 1px rgba(0, 0, 0, 0.3);
+  border-radius: 5%;
+}
+
+
+.yes-button, .no-button {
+  padding: 20px;
+  width: 150px;
+  height: 150px;
+  color: white;
+  border: none;
+  margin: 30px;
+  border-radius: 10%;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.yes-button {
+  background-color: #19B620;
+  box-shadow: 5px 5px 15px 5px rgba(25, 182, 37, 0.4);
+}
+
+.no-button {
+  background-color: #CD2525;
+  box-shadow: 5px 5px 15px 5px rgba(205, 37, 37, 0.4);
+  transition: transform 0.2s ease;
+}
